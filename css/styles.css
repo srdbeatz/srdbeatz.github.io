@@ -148,8 +148,10 @@ hr {
 
 @media (max-width: 995px) {
 
+  html, body {margin: 0; height: 100%; overflow: scroll}
+
   #main {
-    padding: 50% 15%;
+    padding: 30% 15%;
   }
 
   #title {
