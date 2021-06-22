@@ -8,9 +8,7 @@ html, body {margin: 0; height: 100%; overflow: hidden;}
 body {
   font-family: 'Gothic A1', sans-serif;
   position: inherit;
-  /* background-color: #f1f3f8; */
-  background-image: url(../images/background.png);
-  background-repeat: repeat;
+  background-color: #f1f3f8;
   animation: fadeIn ease 6s;
 }
 
