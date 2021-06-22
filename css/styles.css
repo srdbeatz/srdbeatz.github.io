@@ -3,12 +3,14 @@
  * font-family: 'Ubuntu', sans-serif;
  */
 
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {margin: 0; height: 100%; overflow: hidden;}
 
 body {
-  background-color: #f1f3f8;
   font-family: 'Gothic A1', sans-serif;
   position: inherit;
+  /* background-color: #f1f3f8; */
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
   animation: fadeIn ease 6s;
 }
 
@@ -26,6 +28,7 @@ hr {
 }
 
 #main {
+  background-color: #f1f3f8;
   padding: 15% 30%;
   text-align: center;
   align-items: center;
