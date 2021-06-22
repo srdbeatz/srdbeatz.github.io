@@ -1,0 +1,165 @@
+/* FONTS: 
+ * font-family: 'Gothic A1', sans-serif;
+ * font-family: 'Ubuntu', sans-serif;
+ */
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+body {
+  background-color: #f1f3f8;
+  font-family: 'Gothic A1', sans-serif;
+  position: inherit;
+  animation: fadeIn ease 6s;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  padding-top: 5px;
+  width: 10%;
+}
+
+#main {
+  padding: 15% 30%;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+.ig-icon {
+  size:50px;
+}
+
+.sub-section-title {
+  font-style: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar Section */
+.navbar {
+  background: #d6e0f0;
+  color:black;
+  font-size: 1.2rem;
+
+}
+
+.big-header {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+.title-info {
+  text-align: left;
+}
+
+.avatars {
+  align-items: center;
+}
+
+.avatar-img {
+  position: relative;
+  margin: auto 50% 5% 50%;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  padding-bottom: 2%;
+}
+
+.social-svg {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  opacity: 0.8;
+  filter: brightness(85%);
+  animation: swing ease 2.5s;
+}
+
+.spin-illuminate:hover {
+  opacity: 1;
+  filter: brightness(110%);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.spin-illuminate-v2:hover {
+  opacity: 1;
+  filter: brightness(110%);
+  transition: 1s;
+  animation: zoominoutsinglefeatured 1s;
+}
+
+.nav-slash {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.footer-social-icons {
+  display: inline-flex;
+  padding-bottom: 1%
+}
+
+
+/* KeyFrames Section */
+
+@keyframes zoominoutsinglefeatured {
+  0% {
+      transform: scale(1,1);
+  }
+  50% {
+      transform: scale(1.2,1.2);
+  }
+  100% {
+      transform: scale(1,1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes swing {
+  0% {transform: rotate(0deg);}
+  20% {transform: rotate(300deg);}
+  60% {transform: rotate(-45deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* Mobile Viewing */
+
+@media (max-width: 995px) {
+
+  #main {
+    padding: 50% 15%;
+  }
+
+  #title {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .footer-social-icons {
+    display: inline-flex;
+    padding-bottom: 1%
+  }
+
+}
